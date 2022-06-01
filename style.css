@@ -44,13 +44,14 @@ body{
     right: 11vh;
 }
 .eye-ball{
-    background-color: #333B61;
+    background-color: #000000;
     position: absolute;
     top: 1.5vh;
     left: 2.5vh;
     height: 8vh;
     width: 10vh;
     border-radius: 50%;
+    border:rgb(196, 152, 152) 2vh solid;
 }
 .mouth{
     height: 9vh;
