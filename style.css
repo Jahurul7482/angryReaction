@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+}
+.container{
+    height: 80vh;
+    width: 80vh;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: 10vh;
+}
+.circle{
+    height: 60vh;
+    width: 60vh;
+    background-image: linear-gradient(#F11017, #F17017);
+    position: relative;
+    top: 10vh;
+    left: 10vh;
+    border-radius: 50%;
+}
+.eye{
+    background-color: transparent;
+    height: 15vh;
+    width: 17vh;
+    position: absolute;
+    border-radius: 50%;
+    border: transparent 1vh solid;
+    border-top: #D77500 3vh solid;
+    top: 17vh;
+}
+.eye-1{
+    transform: rotate(10deg);
+    left: 11vh;
+}
+.eye-2{
+    transform: rotate(-10deg);
+    right: 11vh;
+}
+.eye-ball{
+    background-color: #333B61;
+    position: absolute;
+    top: 1.5vh;
+    left: 2.5vh;
+    height: 8vh;
+    width: 10vh;
+    border-radius: 50%;
+}
+.mouth{
+    height: 9vh;
+    width: 25vh;
+    position: absolute;
+    top: 35vh;
+    left: 17.5vh;
+    border: transparent 5vh solid;
+    border-bottom: #692E10 5vh solid;
+    border-radius: 50%;
+}
